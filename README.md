@@ -48,4 +48,4 @@ To modify styles:
 
 ## Author
 
-[AunZaidii]
+AunZaidii
