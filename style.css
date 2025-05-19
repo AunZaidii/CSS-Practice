@@ -1,27 +1,99 @@
-P {
-    color: aliceblue;
-    font-weight: 900;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font: bolder;
+*{
+    font-family: sans-serif;
 }
-h1,h2{
-    color: rgb(255, 255, 255);
+.flex{
+    display: flex;
+    gap: 2rem;
+    align-items: start;
 }
-p1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
+body{
+    background-color: rgb(0, 0, 1);
+}
+h1{
+    color: antiquewhite; font-size: x-large; font-weight: 600;
+}
+h3{
+    color: antiquewhite;
+}
+p{
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* Adjust this value as needed */
+}
+/* style.css */
 
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-p2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:lighter;
-    font-size: smaller;
-    color: rgb(255, 255, 255);
+
+body {
+    font-family: Arial, sans-serif;
 }
-p3{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: xx-small;
-    color: rgb(255, 255, 255);
+
+/* Navbar styling */
+nav {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+nav p {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+/* List and link styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+html {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
